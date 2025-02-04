@@ -1,6 +1,6 @@
 # Getting Started: Domain-Driven Design
 
-Welcome to the ["Getting Started: Domain-Driven Design"](https://dometrain.com/course/getting-started-domain-driven-design-ddd/) course on Dometrain! 
+Welcome to the ["Getting Started: Domain-Driven Design"](https://dometrain.com/course/getting-started-domain-driven-design-ddd?ref=dometrain-github&promo=getting-started-domain-driven-design) course on Dometrain! 
 
 This repository contains the source code for the course, which you can use to follow along.
 
