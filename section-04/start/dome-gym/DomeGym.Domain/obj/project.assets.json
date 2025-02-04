@@ -1,0 +1,202 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Ardalis.SmartEnum/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ardalis.SmartEnum.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Ardalis.SmartEnum.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ErrorOr/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OneOf/3.0.216": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
+      "Throw/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "OneOf": "3.0.216"
+        },
+        "compile": {
+          "lib/net6.0/Throw.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Throw.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ardalis.SmartEnum/7.0.0": {
+      "sha512": "kimfs7iIHTctxUwMyuJH+dXwFVDzYKtRzuxiAFk7Cb8sjhP1QutEYenz+i/UG92nu4AkoZhfqNpmBOn5/RGDMw==",
+      "type": "package",
+      "path": "ardalis.smartenum/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.smartenum.7.0.0.nupkg.sha512",
+        "ardalis.smartenum.nuspec",
+        "icon.png",
+        "lib/net7.0/Ardalis.SmartEnum.dll",
+        "lib/net7.0/Ardalis.SmartEnum.xml"
+      ]
+    },
+    "ErrorOr/1.2.1": {
+      "sha512": "5xcbQErEPQKq2z/sLwSaFPX3T2G7x4ISX0us0X7jSxXSQT/wlfOOhw4knPUN/GWOf2strhuzdvRA36JViwvu+A==",
+      "type": "package",
+      "path": "erroror/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.1.2.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
+      ]
+    },
+    "OneOf/3.0.216": {
+      "sha512": "hvSxx7O9Z50ZK/HZaqxcEiO1skihnHcsziy0cVRqSq7LrETM9swcRcMZuG+0irai7jq8FYYCHTrB/pSHSah6ug==",
+      "type": "package",
+      "path": "oneof/3.0.216",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.216.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
+    "Throw/1.3.1": {
+      "sha512": "zFcXPEtZUShAu+PoF7lnUSzsIN4I/H7T3CqzzE1uyWgCp8u4NSzugPUIwdVIdz7wMU9B8We9iV2Jz1fyiiu48w==",
+      "type": "package",
+      "path": "throw/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon-square.png",
+        "lib/net6.0/Throw.dll",
+        "lib/net6.0/Throw.xml",
+        "throw.1.3.1.nupkg.sha512",
+        "throw.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Ardalis.SmartEnum >= 7.0.0",
+      "ErrorOr >= 1.2.1",
+      "Throw >= 1.3.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/amantinband/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-start/dome-gym/DomeGym.Domain/DomeGym.Domain.csproj",
+      "projectName": "DomeGym.Domain",
+      "projectPath": "/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-start/dome-gym/DomeGym.Domain/DomeGym.Domain.csproj",
+      "packagesPath": "/Users/amantinband/.nuget/packages/",
+      "outputPath": "/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-start/dome-gym/DomeGym.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/amantinband/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Ardalis.SmartEnum": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
+          "Throw": {
+            "target": "Package",
+            "version": "[1.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

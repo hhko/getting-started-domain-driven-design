@@ -1,0 +1,17 @@
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SessionReservation.Application.deps.json
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SessionReservation.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SessionReservation.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SessionReservation.Domain.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SharedKernel.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SessionReservation.Domain.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/bin/Debug/net9.0/SharedKernel.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.csproj.AssemblyReference.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.AssemblyInfoInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.AssemblyInfo.cs
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.csproj.CoreCompileInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionR.BF871093.Up2Date
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/refint/SessionReservation.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/SessionReservation.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/SessionReservation/src/SessionReservation.Application/obj/Debug/net9.0/ref/SessionReservation.Application.dll

@@ -1,0 +1,15 @@
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/bin/Debug/net9.0/DomeGym.Application.deps.json
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/bin/Debug/net9.0/DomeGym.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/bin/Debug/net9.0/DomeGym.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/bin/Debug/net9.0/DomeGym.Domain.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/bin/Debug/net9.0/DomeGym.Domain.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.csproj.AssemblyReference.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.AssemblyInfoInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.AssemblyInfo.cs
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.csproj.CoreCompileInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym..6E7E496C.Up2Date
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/refint/DomeGym.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/DomeGym.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-04/4-end/dome-gym/DomeGym.Application/obj/Debug/net9.0/ref/DomeGym.Application.dll

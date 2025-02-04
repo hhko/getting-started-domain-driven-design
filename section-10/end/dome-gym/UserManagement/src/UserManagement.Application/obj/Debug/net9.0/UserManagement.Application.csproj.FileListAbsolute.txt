@@ -1,0 +1,15 @@
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/bin/Debug/net9.0/UserManagement.Application.deps.json
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/bin/Debug/net9.0/UserManagement.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/bin/Debug/net9.0/UserManagement.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/bin/Debug/net9.0/UserManagement.Domain.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/bin/Debug/net9.0/UserManagement.Domain.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.csproj.AssemblyReference.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.AssemblyInfoInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.AssemblyInfo.cs
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.csproj.CoreCompileInputs.cache
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserMana.22515BBA.Up2Date
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/refint/UserManagement.Application.dll
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/UserManagement.Application.pdb
+/Users/amantinband/courses/github/getting-started-domain-driven-design/section-10/10-end/dome-gym/UserManagement/src/UserManagement.Application/obj/Debug/net9.0/ref/UserManagement.Application.dll
