@@ -16,8 +16,7 @@ public class Room : AggregateRoot
         int maxDailySessions,
         Guid gymId,
         Schedule? schedule = null,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         _maxDailySessions = maxDailySessions;
         _gymId = gymId;

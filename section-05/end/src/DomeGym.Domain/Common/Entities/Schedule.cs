@@ -10,8 +10,7 @@ public class Schedule : Entity
 
     public Schedule(
         Dictionary<DateOnly, List<TimeRange>>? calendar = null,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         _calendar = calendar ?? new();
     }

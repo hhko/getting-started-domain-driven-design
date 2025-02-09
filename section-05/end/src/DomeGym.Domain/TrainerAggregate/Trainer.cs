@@ -17,8 +17,7 @@ public class Trainer : AggregateRoot
     public Trainer(
         Guid userId,
         Schedule? schedule = null,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         UserId = userId;
         _schedule = schedule ?? Schedule.Empty();

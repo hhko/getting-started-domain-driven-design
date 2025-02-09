@@ -22,8 +22,7 @@ public class Gym : AggregateRoot
         string name,
         int maxRooms,
         Guid subscriptionId,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         Name = name;
         _maxRooms = maxRooms;

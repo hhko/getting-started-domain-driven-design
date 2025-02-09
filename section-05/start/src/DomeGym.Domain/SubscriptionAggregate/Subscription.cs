@@ -16,8 +16,7 @@ public class Subscription : AggregateRoot
     public Subscription(
         SubscriptionType subscriptionType,
         Guid adminId,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         SubscriptionType = subscriptionType;
         _maxGyms = GetMaxGyms();
