@@ -25,8 +25,7 @@ public class User : AggregateRoot
         Guid? adminId = null,
         Guid? participantId = null,
         Guid? trainerId = null,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         FirstName = firstName;
         LastName = lastName;

@@ -11,9 +11,9 @@ public class Gym
     public Guid Id { get; }
 
     public Gym(
-    int maxRooms,
-    Guid subscriptionId,
-    Guid? id = null)
+        int maxRooms,
+        Guid subscriptionId,
+        Guid? id = null)
     {
         _maxRooms = maxRooms;
         _subscriptionId = subscriptionId;

@@ -15,8 +15,7 @@ public class Admin : AggregateRoot
     public Admin(
         Guid userId,
         Guid? subscriptionId = null,
-        Guid? id = null)
-        : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         UserId = userId;
         SubscriptionId = subscriptionId;

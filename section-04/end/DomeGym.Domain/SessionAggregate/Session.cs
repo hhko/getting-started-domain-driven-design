@@ -21,8 +21,7 @@ public class Session : AggregateRoot
         TimeRange time,
         int maxParticipants,
         Guid trainerId,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         Date = date;
         Time = time;

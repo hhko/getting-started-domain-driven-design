@@ -39,8 +39,7 @@ public class Session : AggregateRoot
         DateOnly date,
         TimeRange time,
         List<SessionCategory> categories,
-        Guid? id = null)
-            : base(id ?? Guid.NewGuid())
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         Name = name;
         Description = description;

@@ -11,10 +11,9 @@ public class Gym : AggregateRoot
     private readonly List<Guid> _roomIds = new();
 
     public Gym(
-    int maxRooms,
-    Guid subscriptionId,
-    Guid? id = null)
-        : base(id ?? Guid.NewGuid())
+        int maxRooms,
+        Guid subscriptionId,
+        Guid? id = null) : base(id ?? Guid.NewGuid())
     {
         _maxRooms = maxRooms;
         _subscriptionId = subscriptionId;
