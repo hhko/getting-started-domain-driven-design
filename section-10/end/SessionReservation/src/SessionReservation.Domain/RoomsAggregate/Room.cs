@@ -13,7 +13,7 @@ public class Room : AggregateRoot
 {
     private readonly int _maxSessions;
     private readonly Schedule _schedule = Schedule.Empty();
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
 
     public string Name { get; } = null!;
 

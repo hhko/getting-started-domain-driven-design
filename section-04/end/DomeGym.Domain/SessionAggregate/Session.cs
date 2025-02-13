@@ -9,7 +9,7 @@ namespace DomeGym.Domain.SessionAggregate;
 public class Session : AggregateRoot
 {
     private readonly Guid _trainerId;
-    private readonly List<Reservation> _reservations = new();
+    private readonly List<Reservation> _reservations = [];
     private readonly int _maxParticipants;
 
     public DateOnly Date { get; }

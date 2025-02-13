@@ -12,7 +12,7 @@ namespace SessionReservation.Domain.ParticipantAggregate;
 public class Participant : AggregateRoot
 {
     private readonly Schedule _schedule = Schedule.Empty();
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
     public Guid UserId { get; }
 
     public IReadOnlyList<Guid> SessionIds => _sessionIds;

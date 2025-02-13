@@ -11,7 +11,7 @@ namespace SessionReservation.Domain.TrainerAggregate;
 
 public class Trainer : AggregateRoot
 {
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
     private readonly Schedule _schedule = Schedule.Empty();
 
     public Guid UserId { get; }

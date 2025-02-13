@@ -10,7 +10,7 @@ public class Participant : AggregateRoot
     private readonly Schedule _schedule = Schedule.Empty();
 
     private readonly Guid _userId;
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
 
     public Participant(Guid userId, Guid? id = null)
         : base(id ?? Guid.NewGuid())

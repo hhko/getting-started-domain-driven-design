@@ -4,7 +4,7 @@ namespace DomeGym.Domain;
 
 public class Room
 {
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
     private readonly int _maxDailySessions;
     private readonly Guid _gymId;
     private readonly Schedule _schedule = Schedule.Empty();

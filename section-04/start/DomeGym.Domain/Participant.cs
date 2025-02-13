@@ -7,7 +7,7 @@ public class Participant
     private readonly Schedule _schedule = Schedule.Empty();
 
     private readonly Guid _userId;
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
 
     public Guid Id { get; }
 
