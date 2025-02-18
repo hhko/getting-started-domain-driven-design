@@ -52,7 +52,7 @@ public class Trainer : AggregateRoot
     {
         if (!_sessionIds.Contains(session.Id))
         {
-            return Error.NotFound("Session not found in trainer's schedule");
+            return Error.NotFound(description: "Session not found in trainer's schedule");
         }
 
         var removeBookingResult = _schedule.RemoveBooking(
