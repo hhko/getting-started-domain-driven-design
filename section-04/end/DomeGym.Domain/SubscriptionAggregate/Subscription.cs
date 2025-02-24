@@ -6,7 +6,7 @@ namespace DomeGym.Domain.SubscriptionAggregate;
 
 public class Subscription : AggregateRoot
 {
-    private readonly List<Guid> _gymIds = new();
+    private readonly List<Guid> _gymIds = [];
     private readonly SubscriptionType _subscriptionType;
     private readonly int _maxGyms;
     private readonly Guid _adminId;

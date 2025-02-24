@@ -6,7 +6,7 @@ public class Gym
 {
     private readonly Guid _subscriptionId;
     private readonly int _maxRooms;
-    private readonly List<Guid> _roomIds = new();
+    private readonly List<Guid> _roomIds = [];
 
     public Guid Id { get; }
 

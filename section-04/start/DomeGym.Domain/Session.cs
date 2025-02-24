@@ -5,7 +5,7 @@ namespace DomeGym.Domain;
 public class Session
 {
     private readonly Guid _trainerId;
-    private readonly List<Guid> _participantIds = new();
+    private readonly List<Guid> _participantIds = [];
     private readonly int _maxParticipants;
 
     public Guid Id { get; }

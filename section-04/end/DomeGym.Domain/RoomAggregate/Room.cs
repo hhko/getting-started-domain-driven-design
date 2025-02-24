@@ -7,7 +7,7 @@ namespace DomeGym.Domain.RoomAggregate;
 
 public class Room : AggregateRoot
 {
-    private readonly List<Guid> _sessionIds = new();
+    private readonly List<Guid> _sessionIds = [];
     private readonly int _maxDailySessions;
     private readonly Guid _gymId;
     private readonly Schedule _schedule = Schedule.Empty();

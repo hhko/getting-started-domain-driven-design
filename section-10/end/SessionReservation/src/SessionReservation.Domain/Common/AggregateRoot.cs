@@ -10,7 +10,7 @@ public abstract class AggregateRoot : Entity
 
     protected AggregateRoot() { }
 
-    protected readonly List<IDomainEvent> _domainEvents = new();
+    protected readonly List<IDomainEvent> _domainEvents = [];
 
     public List<IDomainEvent> PopDomainEvents()
     {

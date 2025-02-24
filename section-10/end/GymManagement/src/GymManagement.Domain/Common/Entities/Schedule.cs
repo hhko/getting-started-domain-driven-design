@@ -7,7 +7,7 @@ namespace GymManagement.Domain.Common.Entities;
 
 public class Schedule : Entity
 {
-    private readonly Dictionary<DateOnly, List<TimeRange>> _calendar = new();
+    private readonly Dictionary<DateOnly, List<TimeRange>> _calendar = [];
 
     public Schedule(
         Dictionary<DateOnly, List<TimeRange>>? calendar = null,
@@ -35,7 +35,7 @@ public class Schedule : Entity
     {
         if (!_calendar.TryGetValue(date, out var timeSlots))
         {
-            _calendar[date] = new() { time };
+            _calendar[date] = [ time ];
             return Result.Success;
         }
 

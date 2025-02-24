@@ -10,8 +10,8 @@ namespace GymManagement.Domain.GymAggregate;
 
 public class Gym : AggregateRoot
 {
-    private readonly List<Guid> _roomIds = new();
-    private readonly List<Guid> _trainerIds = new();
+    private readonly List<Guid> _roomIds = [];
+    private readonly List<Guid> _trainerIds = [];
     private readonly int _maxRooms;
 
     public string Name { get; } = null!;

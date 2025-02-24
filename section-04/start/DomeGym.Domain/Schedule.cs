@@ -4,7 +4,7 @@ namespace DomeGym.Domain;
 
 public class Schedule
 {
-    private readonly Dictionary<DateOnly, List<TimeRange>> _calendar = new();
+    private readonly Dictionary<DateOnly, List<TimeRange>> _calendar = [];
     private readonly Guid _id;
 
     public Schedule(
@@ -34,7 +34,7 @@ public class Schedule
     {
         if (!_calendar.TryGetValue(date, out var timeSlots))
         {
-            _calendar[date] = new() { time };
+            _calendar[date] = [ time ];
             return Result.Success;
         }
 

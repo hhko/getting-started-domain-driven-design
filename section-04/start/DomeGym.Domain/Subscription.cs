@@ -5,7 +5,7 @@ namespace DomeGym.Domain;
 public class Subscription
 {
     private readonly Guid _id;
-    private readonly List<Guid> _gymIds = new();
+    private readonly List<Guid> _gymIds = [];
     private readonly SubscriptionType _subscriptionType;
     private readonly int _maxGyms;
     private readonly Guid _adminId;

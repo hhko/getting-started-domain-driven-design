@@ -10,8 +10,8 @@ namespace SessionReservation.Domain.SessionAggregate;
 
 public class Session : AggregateRoot
 {
-    private readonly List<Reservation> _reservations = new();
-    private readonly List<SessionCategory> _categories = new();
+    private readonly List<Reservation> _reservations = [];
+    private readonly List<SessionCategory> _categories = [];
 
     public int NumParticipants => _reservations.Count;
 

@@ -13,7 +13,7 @@ public static partial class Constants
             TimeOnly.MinValue.AddHours(8),
             TimeOnly.MinValue.AddHours(9));
 
-        public static readonly List<SessionCategory> Categories = new();
+        public static readonly List<SessionCategory> Categories = [];
 
         public const int MaxParticipants = 5;
         public const string Name = "Zoomba Session";

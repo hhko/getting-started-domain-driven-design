@@ -9,8 +9,8 @@ namespace DomeGym.Domain.GymAggregate;
 public class Gym : AggregateRoot
 {
     private readonly int _maxRooms;
-    private readonly List<Guid> _roomIds = new();
-    private readonly List<Guid> _trainerIds = new();
+    private readonly List<Guid> _roomIds = [];
+    private readonly List<Guid> _trainerIds = [];
 
     public string Name { get; } = null!;
 

@@ -8,7 +8,7 @@ namespace DomeGym.Domain.RoomAggregate;
 
 public class Room : AggregateRoot
 {
-    private readonly Dictionary<DateOnly, List<Guid>> _sessionIdsByDate = new();
+    private readonly Dictionary<DateOnly, List<Guid>> _sessionIdsByDate = [];
     private readonly int _maxDailySessions;
     private readonly Schedule _schedule = Schedule.Empty();
 
@@ -43,7 +43,7 @@ public class Room : AggregateRoot
 
         if (!_sessionIdsByDate.ContainsKey(session.Date))
         {
-            _sessionIdsByDate[session.Date] = new();
+            _sessionIdsByDate[session.Date] = [];
         }
 
         var dailySessions = _sessionIdsByDate[session.Date];
