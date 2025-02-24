@@ -56,7 +56,7 @@ public class Participant : AggregateRoot
     {
         if (!_sessionIds.Contains(session.Id))
         {
-            return Error.NotFound(description: "Session not found");
+            return Error.NotFound(description: "Session not found in participant's schedule");
         }
 
         var removeBookingResult = _schedule.RemoveBooking(

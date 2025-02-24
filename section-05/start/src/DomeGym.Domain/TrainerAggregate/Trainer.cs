@@ -50,7 +50,7 @@ public class Trainer : AggregateRoot
     {
         if (!_sessionIds.Contains(session.Id))
         {
-            return Error.Conflict("Trainer already assigned to teach session");
+            return Error.NotFound(description: "Session not found in trainer's schedule");
         }
 
         var removeBookingResult = _schedule.RemoveBooking(
