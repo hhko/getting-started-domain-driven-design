@@ -39,11 +39,11 @@ public class CreateRoomCommandHandler : IRequestHandler<CreateRoomCommand, Error
             gymId: gym.Id,
             maxDailySessions: subscription.GetMaxDailySessions());
 
-        var addGymResult = gym.AddRoom(room);
+        var addRoomResult = gym.AddRoom(room);
 
-        if (addGymResult.IsError)
+        if (addRoomResult.IsError)
         {
-            return addGymResult.Errors;
+            return addRoomResult.Errors;
         }
 
         await _gymsRepository.UpdateAsync(gym);
