@@ -26,7 +26,7 @@ public class ReservationCanceledEventHandler : INotificationHandler<ReservationC
         if (removeBookingResult.IsError)
         {
             throw new EventualConsistencyException(
-                ReservationCanceledEvent.ParticipantNotFound,
+                ReservationCanceledEvent.ParticipantScheduleUpdateFailed,
                 removeBookingResult.Errors);
         }
 
